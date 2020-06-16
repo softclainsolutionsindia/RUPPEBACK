@@ -1,63 +1,60 @@
 
 <!DOCTYPE HTML>
-<html>
+<html lang="zxx">
+
 <head>
-<title>ruppeback.com :: Online Shopping - 100% CashBack </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8" />
-<meta name="keywords" content="online,shopping">
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/jquery.countdown.css" />
-<!--fonts--> 
-<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-<!--//fonts--> 
+	<title>ruppeback.com :: Online Shopping - 100% CashBack</title>
+	<!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="online,shopping">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/jquery.countdown.css" />
+	<!-- Countdown-CSS -->
+	<!-- //css files -->
+
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<!-- //web-fonts -->
 </head>
+
 <body>
-    <div class="agile">
+	<div class="video-w3l" data-vide-bg="video/1">
+		<div class="agile">
      	<div class="container">
-			<h1> Comming Soon</h1>
-			
+			<h1> Coming Soon..</h1>
+
 			<div class="clear-loading spinner">
 				<span></span>
 			</div>
-			
-			<div class="wthree-info">  
-				<h2>We'll be back soon!</h2>
-				<p>We are busy improving our website, and should be back online in.</p>
+
+			<div class="wthree-info">
+				<h2>We are launching soon!</h2>
+				<p>We will be here soon with a new website, estimated time for launch.</p>
 			</div>
 			<!--timer-->
-			<div class="agileits-timer"> 
-				<div class="clock">
-					<div class="column days">
-						<div class="timer" id="days"></div>
-						<div class="text">DAYS</div>
-					</div>
-					<div class="timer days"></div>
-					<div class="column">
-						<div class="timer" id="hours"></div>
-						<div class="text">HOURS</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="minutes"></div>
-						<div class="text">MINUTES</div>
-					</div>
-					<div class="timer"></div>
-					<div class="column">
-						<div class="timer" id="seconds"></div>
-						<div class="text">SECONDS</div>
-					</div>
-					<div class="clear"> </div>
-				</div>	 
+			<div class="examples">
+				<div class="simply-countdown-losange" id="simply-countdown-losange"></div>
+				<div class="clear"></div>
 			</div>
 			<!--//timer-->
+
 			<!--newsletter-->
 			<div class="newsletter">
 				<h2>Subscribe Now</h2>
-				<form action="#" method="post" class="newsletter">
+				<form action="https://script.google.com/macros/s/AKfycbysSI6xumgcpEN6DakjBsqunE3swsAFJOqJa9Eo8Ifap2-wNdoK/exec" method="post" class="newsletter">
 					<input class="email" type="email" placeholder="Enter Your Email..." required="">
 					<input type="submit" class="submit" value="subscribe">
 				</form>
@@ -71,10 +68,25 @@
 			<!--//copyright-->
         </div>
    </div>
-<!--scripts--> 
-	<script type="text/javascript" src=" js/moment.js"></script>
-	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
-	<script type="text/javascript" src="js/timer.js"></script>
-<!--//scripts--> 
+	</div>
+
+	<!-- js -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.vide.min.js"></script>
+	<!-- //js -->
+
+	<!-- Countdown-Timer-JavaScript -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- easy to customize -->
+	<script>
+		$('#simply-countdown-losange').simplyCountdown({
+			year: 2020,
+			month: 07,
+			day:25,
+		});
+	</script>
+	<!-- //Countdown-Timer-JavaScript -->
+
 </body>
-</html>	
+
+</html>
